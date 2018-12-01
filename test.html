@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+<h1>Data entry</h1>
+
+<h2>UpdateUserFoods</h2>
+
+<form action="/updateUserFoods.php" method="POST">
+  Sweet<br>
+  <input type="text" name="sweet">
+  <br>
+  Salty<br>
+  <input type="text" name="salty">
+  <br>
+  Sour<br>
+  <input type="text" name="sour">
+  <br>
+  Bitter<br>
+  <input type="text" name="bitter">
+  <br>
+  Umami<br>
+  <input type="text" name="umami">
+  <br>
+  Spicy<br>
+  <input type="text" name="spicy">
+  <br>
+  Food<br>
+  <input type="text" name="food">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<h2>UpdateTasteProfile</h2>
+
+<form action="/updateTasteProfile.php" method="POST">
+	<input type="submit" value="Update Taste Profile">
+</form>
+	
+<h2>CreateUser</h2>
+
+<form action="/createUser.php" method="POST">
+	User name<br>
+	<input type="text" name="userName">
+	<br>
+	Email address<br>
+	<input type="text" name="userEmail">
+	<br>
+	First name<br>
+	<input type="text" name="firstName">
+	<br>
+	Last name<br>
+	<input type="text" name="lastName">
+	<br><br>
+	<input type="submit" value="Submit">
+</form>
+
+<h2>CreateRestaurant</h2>
+
+<form action="/createRestaurant.php" method="POST">
+	Restaurant name<br>
+	<input type="text" name="restaurantName">
+	<br>
+	Phone number<br>
+	<input type="text" name="phoneNum">
+	<br>
+	Zip code<br>
+	<input type="text" name="zipCode">
+	<br>
+	Style<br>
+	<input type="text" name="style">
+	<br><br>
+	<input type="submit" value="Submit">
+</form>
+
+<h2>CreateFoodItem</h2>
+
+<form action="/createFoodItem.php" method="POST">
+	Restaurant ID<br>
+	<input type="text" name="restaurantID">
+	<br>
+	Description<br>
+	<input type="text" name="description">
+	<br>
+	Sweet<br>
+	<input type="text" name="sweetAVG">
+	<br>
+	Salty<br>
+	<input type="text" name="saltyAVG">
+	<br>
+	Sour<br>
+	<input type="text" name="sourAVG">
+	<br>
+	Bitter<br>
+	<input type="text" name="bitterAVG">
+	<br>
+	Umami<br>
+	<input type="text" name="umamiAVG">
+	<br>
+	Spicy<br>
+	<input type="text" name="spicyAVG">
+	<br><br>
+	<input type="submit" value="Submit">
+</form>
+
+<h2>UpdateFoodItem</h2>
+
+<form action="/updateFoodItem.php" method="POST">
+	RestaurantID<br>
+	<input type="text" name="food">
+	<br>
+	Sweet<br>
+	<input type="text" name="sweetPercent">
+	<br>
+	Salty<br>
+	<input type="text" name="saltyPercent">
+	<br>
+	Sour<br>
+	<input type="text" name="sourPercent">
+	<br>
+	Bitter<br>
+	<input type="text" name="bitterPercent">
+	<br>
+	Umami<br>
+	<input type="text" name="umamiPercent">
+	<br>
+	Spicy<br>
+	<input type="text" name="spicyPercent">
+	<br><br>
+	<input type="submit" value="Submit">
+</form>
+
+</body>
+
+</html>
